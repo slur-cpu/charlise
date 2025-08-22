@@ -1,0 +1,100 @@
+.header{
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px dashed black; */
+    padding: 5px;
+    height: 50px;
+}
+
+.logo{
+    /* border: 2px dashed green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5%;
+
+   
+}
+
+#logopic{
+    width:35px;
+    border-radius: 100px;
+}
+
+.options{
+    /* border: 2px dashed green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1.5% ;
+}
+
+.buttons{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+.buttons1{
+    color: black;
+    background-color: rgb(41, 236, 250);
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+
+
+.buttons:hover{
+    background-color: rgb(152, 174, 175);
+}
+
+
+
+
+#charlie{
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    #charlie{
+        font-size: 10px;
+    }
+
+    .buttons{
+    color: black;
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 7px;
+}
+
+.buttons1{
+    color: black;
+    background-color: rgb(41, 236, 250);
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 7px;
+}
+
+
+}

@@ -1,0 +1,13 @@
+@import 'header.css';
+@import 'home.css';
+@import 'footer.css';
+@import 'contact.css';
+@import 'submit.css';
+
+body{
+    margin: 0;
+    background-image: url('/assets/images/wallpaper.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

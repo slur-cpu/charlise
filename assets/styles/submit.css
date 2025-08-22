@@ -1,0 +1,29 @@
+#submitHtml{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#message{
+    background-color: rgba(26, 53, 53, .5);
+    padding: 50px;
+    border-radius: 100px;
+    font-size:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gobackButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 70px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+      background-color: #007BFF;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
